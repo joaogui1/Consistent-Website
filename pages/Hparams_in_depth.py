@@ -1,9 +1,8 @@
 import streamlit as st
 
-from plot_data import plot_game, experiments_mapping
+from constants import experiments_mapping
 from utils import THIS_METRIC, THIS_METRIC_100k
 
-plot_game = st.experimental_memo(plot_game)
 
 st.set_page_config(layout="wide")
 

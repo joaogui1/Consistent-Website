@@ -2,7 +2,7 @@ import streamlit as st
 
 import PIL
 PIL.Image.MAX_IMAGE_PIXELS = 900000000
-from plot_data import experiments_mapping
+from constants import experiments_mapping
 
 st.set_page_config(layout="wide", page_title="Lifting the Veil")
 st.sidebar.markdown("# Main page 🌈")

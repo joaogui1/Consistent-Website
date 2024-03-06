@@ -1,8 +1,7 @@
 import streamlit as st
 
-from plot_data import plot_game, ATARI_100K_GAMES
+from constants import ATARI_100K_GAMES
 
-plot_game = st.experimental_memo(plot_game)
 
 st.set_page_config(layout="wide")
 
