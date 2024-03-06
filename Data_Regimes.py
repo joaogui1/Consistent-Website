@@ -4,10 +4,10 @@ import PIL
 PIL.Image.MAX_IMAGE_PIXELS = 900000000
 from constants import experiments_mapping
 
-st.set_page_config(layout="wide", page_title="Lifting the Veil")
+st.set_page_config(layout="wide", page_title="Consistent Hyperparameters")
 st.sidebar.markdown("# Main page 🌈")
 
-st.title("Lifting the Veil")
+st.title("Consistent Hyperparameters")
 # text = st.text_input()
 # agents = st.multiselect("Agents", options=["DrQ_eps", "DER"])
 agents = ["DrQ_eps", "DER"]

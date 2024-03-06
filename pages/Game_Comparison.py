@@ -5,7 +5,7 @@ from constants import ATARI_100K_GAMES
 
 st.set_page_config(layout="wide")
 
-st.title("Lifting the Veil")
+st.title("Consistent Hyperparameters")
 agents = ["DrQ_eps", "DER"]
 
 game = st.radio("Game", options=ATARI_100K_GAMES)

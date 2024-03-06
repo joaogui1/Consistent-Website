@@ -6,7 +6,7 @@ from utils import THIS_METRIC, THIS_METRIC_100k
 
 st.set_page_config(layout="wide")
 
-st.title("Lifting the Veil")
+st.title("Consistent Hyperparameters")
 agents = ["DrQ_eps", "DER"]
 
 hparam_name = st.radio("Hyperparameter", options=list(experiments_mapping.keys()))
