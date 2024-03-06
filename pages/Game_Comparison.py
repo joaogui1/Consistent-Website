@@ -3,9 +3,9 @@ import streamlit as st
 from constants import ATARI_100K_GAMES
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Consistent Hyperparameters")
 
-st.title("Consistent Hyperparameters")
+st.title("Per Game Analysis")
 agents = ["DrQ_eps", "DER"]
 
 game = st.radio("Game", options=ATARI_100K_GAMES)

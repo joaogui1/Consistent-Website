@@ -7,7 +7,7 @@ from constants import experiments_mapping
 st.set_page_config(layout="wide", page_title="Consistent Hyperparameters")
 st.sidebar.markdown("# Main page 🌈")
 
-st.title("Consistent Hyperparameters")
+st.title("Data Regime Analysis")
 # text = st.text_input()
 # agents = st.multiselect("Agents", options=["DrQ_eps", "DER"])
 agents = ["DrQ_eps", "DER"]
