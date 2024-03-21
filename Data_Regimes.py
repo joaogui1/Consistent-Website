@@ -1,7 +1,5 @@
 import streamlit as st
 
-import PIL
-PIL.Image.MAX_IMAGE_PIXELS = 900000000
 from constants import experiments_mapping
 
 st.set_page_config(layout="wide", page_title="Consistent Hyperparameters")
