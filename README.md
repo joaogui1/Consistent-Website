@@ -9,10 +9,8 @@ Please cite our work if you find it useful in your research:
 @misc{obandoceron2024consistencyhyperparameterselectionvaluebased,
       title={On the consistency of hyper-parameter selection in value-based deep reinforcement learning}, 
       author={Johan Obando-Ceron and João G. M. Araújo and Aaron Courville and Pablo Samuel Castro},
+      booktitle={Reinforcement Learning Conference},
       year={2024},
-      eprint={2406.17523},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2406.17523}, 
+      url={https://openreview.net/forum?id=szUyvvwoZB}
 }
 ```
