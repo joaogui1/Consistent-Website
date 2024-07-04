@@ -7,7 +7,7 @@ Currently the URL you should use is [https://consistent-hparams.streamlit.app](h
 Please cite our work if you find it useful in your research:
 ```latex
 @inproceedings{
-      anonymous2024on,
+      ceron2024consistency,
       title={On the consistency of hyper-parameter selection in value-based deep reinforcement learning},
       author={Johan Obando-Ceron and João G. M. Araújo and Aaron Courville and Pablo Samuel Castro},
       booktitle={Reinforcement Learning Conference},
