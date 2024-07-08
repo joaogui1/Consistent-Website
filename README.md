@@ -4,6 +4,12 @@ Website with the graphs from the paper [On the consistency of hyper-parameter se
 
 Currently the URL you should use is [https://consistent-hparams.streamlit.app](https://consistent-hparams.streamlit.app/).
 
+# Results by facet
+
++ If you want to see how changing the data regime affects the hyperparameter rankings averaged over all games, go to the [main page](https://consistent-hparams.streamlit.app/)
++ If you want to see an analysis for a specific environment/game, exploring how changing different hyperparameter values affect the performances of the algorithms in different data regimes, go to [Games Comparison](https://consistent-hparams.streamlit.app/Game_Comparison)
++ If you want to analyse how changing a specific hyperparameter value affects the performance of the agents across all games and over the 2 data regimes, go to [Hparams in Depth](https://consistent-hparams.streamlit.app/Hparams_in_depth)
+
 Please cite our work if you find it useful in your research:
 ```latex
 @inproceedings{
