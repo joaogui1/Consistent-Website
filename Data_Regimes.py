@@ -3,7 +3,11 @@ import streamlit as st
 from constants import experiments_mapping
 
 st.set_page_config(layout="wide", page_title="Consistent Hyperparameters")
-st.sidebar.markdown("# Main page 🌈")
+github_url = "https://github.com/joaogui1/Consistent-Website"
+arxiv_link = "https://arxiv.org/abs/2406.17523"
+st.sidebar.markdown(f"Check out our [paper]({arxiv_link}) analyzing"
+                    " these results, and this site's "
+                    f"[github repo]({github_url})!")
 
 st.title("Data Regime Analysis")
 # text = st.text_input()

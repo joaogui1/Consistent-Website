@@ -4,6 +4,11 @@ from constants import experiments_mapping, THC_METRIC, THC_METRIC_100k
 
 
 st.set_page_config(layout="wide", page_title="Consistent Hyperparameters")
+github_url = "https://github.com/joaogui1/Consistent-Website"
+arxiv_link = "https://arxiv.org/abs/2406.17523"
+st.sidebar.markdown(f"Check out our [paper]({arxiv_link}) analyzing"
+                    " these results, and this site's "
+                    f"[github repo]({github_url})!")
 
 st.title("Hyperparameters Performance Per Game")
 agents = ["DrQ_eps", "DER"]
