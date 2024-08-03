@@ -120,3 +120,5 @@ THC_METRIC_100k = {
         'Update Period': (0.43333333333333335, 0.05163977794943222),
         'Weight Decay': (0.43333333333333335, 0.1505545305418162)}
 }
+
+aggregators = ["IQM", "Mean", "Median","Optimality Gap"]
